@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterCrupt", "MasterCrupt\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Common", "UI.Common\UI.Common.csproj", "{2F1D6E21-EEB1-4F8F-ABA0-DD0A0B271A0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrangerEonsLtd", "StrangerEonsLtd\StrangerEonsLtd.csproj", "{7219EF60-BEDB-4F67-91FB-1E036942120B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2F1D6E21-EEB1-4F8F-ABA0-DD0A0B271A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1D6E21-EEB1-4F8F-ABA0-DD0A0B271A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F1D6E21-EEB1-4F8F-ABA0-DD0A0B271A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7219EF60-BEDB-4F67-91FB-1E036942120B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7219EF60-BEDB-4F67-91FB-1E036942120B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7219EF60-BEDB-4F67-91FB-1E036942120B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7219EF60-BEDB-4F67-91FB-1E036942120B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
