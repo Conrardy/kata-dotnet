@@ -71,10 +71,8 @@
   <ItemGroup>
     <Compile Include="AcceptanceTest.cs" />
     <Compile Include="Application.cs" />
-    <Compile Include="IApplication.cs" />
     <Compile Include="Leeter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -107,6 +105,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UI.Common\UI.Common.csproj">
+      <Project>{2f1d6e21-eeb1-4f8f-aba0-dd0a0b271a0a}</Project>
+      <Name>UI.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,4 @@
-﻿namespace MasterCrupt
+﻿namespace Common
 {
     public interface IApplication
     {
