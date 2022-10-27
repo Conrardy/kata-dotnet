@@ -12,7 +12,7 @@ namespace MasterCrupt
         [TestMethod]
         public void TestSecret()
         {
-            UI ui = new UI();
+            UI ui = new UI(new Application());
             Assert.AreEqual("Leeted: S3cr3t", ui.EncryptMessage("Secret"));
         }
     }
